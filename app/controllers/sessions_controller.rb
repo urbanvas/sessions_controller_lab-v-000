@@ -16,6 +16,5 @@ class SessionsController < ApplicationController
     if session[:name]
       session.delete :name
     end
-
   end
 end
